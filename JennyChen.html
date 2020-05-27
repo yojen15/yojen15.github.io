@@ -1,0 +1,443 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Jenny Chen</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jenny Chen
+					</h1>
+					<h2>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">jenny031545@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">0972168287</div>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- 	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Passionate about software development and willing to research and improve program quality</p>
+			<p>Excellent communication, collaboration, and analytical skills</p>
+			<p>Highly motivated,  can work  related work  independently</p>
+		</div>
+	</section> -->
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+
+		<div class="col-sm-14">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>IRODORI, Inc.</span>
+					<span class="date">
+						2019-07-01 — 2020-04-30
+					</span>
+				</h4>
+				<div class="position">
+					Marketing Assistant
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Created product planning</li>
+					<li class="bullet">Created project guideline of international event</li>
+					<li class="bullet">Analyzed market potential of Taiwan and Japan</li>
+					<li class="bullet">Editor of social media and blog</li>
+                    <li class="bullet">Film editing</li>
+
+
+				</ul>
+			</div>
+			</div>
+		</div>
+		<br>
+			<div class="col-sm-14">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Universal Japon Brillier </span>
+					<span class="date">
+						2019-01-01 — 2019-04-01
+					</span>
+				</h4>
+				<div class="position">
+					Reception Desk
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Provided superior service for the guests </li>
+                    <li class="bullet">Translated Japanese to English</li>
+
+				</ul>
+			</div>
+			</div>
+		</div>
+	    <br>
+
+	        <div class="col-sm-14">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Taipei Otorhinolaryngology Clinic </span>
+					<span class="date">
+						2017-07-01 — 2018-09-01
+					</span>
+				</h4>
+				<div class="position">
+					Reception Desk
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Improved the organization of patient files and records</li>
+                    <li class="bullet">Ability to remain calmly and efficiently in handling any emergency situation</li>
+
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tamkang University</span>
+					<span class="date">
+						2014-09-01 — 2018-06-30
+					</span>
+				</h4>
+				<div class="area">
+					Major English Department
+			    </div>
+			    <div class="area">
+					Minor Business Management
+				</div>
+				<div class="studyType">
+
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Computer Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="name">
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>Microsoft word</li>
+					<li>Microsoft Powerpoint</li>
+					<li>Microsoft Excel</li>
+					<li>PowerDirector</li>
+					
+				</ul>
+			</div>
+			<div class="col-sm-12">
+			</div>
+			</div>
+		</div>
+	</section>
+
+<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Language Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="name">
+				</div>
+				<ul class="keywords">
+					<li>Toeic 860</li>
+					<li>Japanese N2</li> 
+				</ul>
+			</div>
+			<div class="col-sm-12">
+			</div>
+			</div>
+		</div>
+	</section>	
+
+
+    <section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Autobiography</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<ul class="keywords">
+					<li>I characterized myself as an outgoing, organized and responsible person. I love to get along with people, dealing every kinds of challenges in life.<br> 
+					I give these credits to the period when I was in the TKU tennis school team. During those four years, I learned how to communicate between my teammates and coach as a captain role, which was also helpful for constructing logical thinking.<br> 
+				This experience made great transformation in my personality, which makes my interpersonal relationship more smoothly.<br> 
+				<li>Although I am a novice in this field, I am qualified for this position according to the company's requirements.<br> I believe I can withstand the great pressure of work. I am very adaptable and willing to train, and I will let my earnest performance to speak for myself. <br> Thank you for the consideration.
+					
+                </ul>
+			</div>
+			<div class="col-sm-12">
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>自傳</h3>
+		</aside>
+        <div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<ul class="keywords">
+					<li> <DD>我是陳宥臻，今年24歲，畢業於淡江大學英文系，輔修企業管理學系。畢業後前往日本的「網路行銷」公司實習，除了與旅行社、餐廳合作，幫他們提案、寫企劃書，為企業增加觀光客源；同時也很常舉辦「台日女子交流會」，以小型聚會為日本人介紹「台日的差異」。<br> 
+                    這些工作經驗都讓我學習以彈性的姿態面對各行各業的人，並學習跳脫主觀模式的「客觀思考」，以外國人的角度分析日本企業的問題，反而更能找出他們看不到的盲點，進行有效的溝通，以利於案子的進行。<br> <br> 
+                    <DD>這陣子，我也自學了「python」語法，並應用「beautiful soup」，把ptt工作版的資料利用網路爬蟲抓下來。同時，也有學習「自動化測試」，例如：「appium」、「robot framework」，和手動測試的「adb」手法；已經能夠應用自動化測試來開啟網頁，把商品放入購物車等。 最近更嘗試要以「python code」來做手動的測試，希望能夠同時具備這兩種測試能力，耐心且冷靜的面對各種測試的過程。<br> <br> 
+                    <DD>雖然我學習程式的經驗不長，仍有許多未知的領域等著我挖掘，但是這半年的收獲，除了程式本身，還有學習的態度。我認為，學習程式看重的是「經驗的累積」和「思路的反覆思辨」，在經歷許多大大小小的問題點，除了學習找答案，更要「驗證」它，並內化成自己的經驗。在這領域我會抱著滿滿的熱情和求知慾繼續一步一步的開路。
+
+
+                    </ul>
+			</div>
+			<div class="col-sm-12">
+			</div>
+			</div>
+		</div>
+	</section>
